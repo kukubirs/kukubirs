@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Madelinë's Creativity</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #fcd5ce;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff5c8d;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ff88a4;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        section h2 {
+            color: #ff5c8d;
+            font-size: 2rem;
+        }
+        section p {
+            font-size: 1.1rem;
+        }
+        .upload-btn {
+            background-color: #ff5c8d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        footer {
+            background-color: #ff88a4;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Welcome to Madelinë's Creativity
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#upload">Upload</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Madelinë. I love sharing my creative projects and ideas. Dive in and explore the work I've been passionate about!
+        </p>
+    </section>
+
+    <section id="upload">
+        <h2>Upload Your Creativity</h2>
+        <p>Share your work here! I'm excited to see what you create.</p>
+        <input type="file" class="upload-btn" />
+    </section>
+
+    <footer>
+        © 2024 Madelinë Firm
+    </footer>
+
+</body>
+</html>
